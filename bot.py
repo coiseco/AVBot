@@ -78,7 +78,7 @@ def menu_commands(message):
     if command == 'admin':
         bot.send_message(
             chat_id,
-            "👤 Нажмите ниже, чтобы написать записаться на тестирование:",
+            "👤 Нажмите ниже, чтобы записаться на тестирование:",
             reply_markup=telebot.types.InlineKeyboardMarkup().add(
                 telebot.types.InlineKeyboardButton("Записаться", url=f"tg://user?id={ADMIN_IDS[0]}")
             )
