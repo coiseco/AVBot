@@ -6,7 +6,7 @@ from telebot.types import ReplyKeyboardRemove, MenuButtonCommands
 
 # Токен и ID админа
 TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_IDS = [5565292941]
+ADMIN_IDS = [7504857614,5565292941]
 
 bot = telebot.TeleBot(TOKEN)
 
